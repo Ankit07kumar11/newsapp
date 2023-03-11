@@ -82,8 +82,8 @@ const Navabr = () => {
     <>
         <div className='flex-col w-full  text-blue-800 bg-black p-2 opacity-100 top-0 sticky z-[100]'>
             <div className='flex justify-between'>
-            <h1 className='text-xl font-bold mb-2 '>NewsNinja</h1>
-            <input className='mr-5 sm:mr-30 mb-2' type="text" value={searchterm} onChange={e=>setsearchterm(e.target.value)} onKeyDown={searchData} placeholder='Search any Topic' />
+            <h1 className='text-2xl p-2 font-bold mb-2 text-gray-400 '>NewsNinja</h1>
+            <input className='mr-5 sm:mr-30 mb-3 rounded-lg p-1 opacity-70 hover:opacity-95' type="text" value={searchterm} onChange={e=>setsearchterm(e.target.value)} onKeyDown={searchData} placeholder='Search any Topic' />
             </div>
             <hr />
         
