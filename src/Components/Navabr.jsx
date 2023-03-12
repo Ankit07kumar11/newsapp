@@ -9,6 +9,7 @@ import data2 from "./data2";
 import request from './request'
 import GeneralData from './GeneralData'
 
+
 const Navabr = () => {
     const [searchterm,setsearchterm]=useState("")
     const [Gdata,setGdata]=useState([])
