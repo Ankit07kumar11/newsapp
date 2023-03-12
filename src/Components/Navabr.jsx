@@ -17,7 +17,7 @@ const Navabr = () => {
     const [title,settile]=useState("")
 
     
-    const url=`https://newsapi.org/v2/everything?q=${searchterm}&language=en&from=2023-03-10&sortBy=publishedAt&apiKey=c086b6db8ad44afc9dbf8a72467356cb`;
+    const url=`https://newsapi.org/v2/everything?q=${searchterm}&language=en&from=2023-03-10&sortBy=publishedAt&apiKey=b2e696a2fc26455793ac4b54d642232a`;
    
     
 

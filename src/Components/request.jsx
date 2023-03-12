@@ -1,4 +1,4 @@
-const key='c086b6db8ad44afc9dbf8a72467356cb';
+const key='b2e696a2fc26455793ac4b54d642232a';
 
 const request={
     everything:`https://newsapi.org/v2/everything?q=Apple&from=2023-03-11&sortBy=popularity&apiKey=${key}`,
