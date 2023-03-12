@@ -10,7 +10,7 @@ const Home = () => {
   // let baseURL = `https://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=e6798202934d43e4b7180fbcb4e65158`;
   let baseURL=request.headline;
 
-  const [news, setnews] = useState([]);
+  const [news, setnews] = useState(data.articles);
 
   useEffect(() => {
       axios.get(baseURL).then((response) => {
