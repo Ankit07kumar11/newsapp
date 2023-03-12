@@ -80,14 +80,14 @@ const Navabr = () => {
 
   return (
     <>
-        <div className='flex-col w-full  text-blue-800 bg-black p-2 opacity-100 top-0 sticky z-[100]'>
-            <div className='flex justify-between'>
-            <h1 className='text-2xl p-2 font-bold mb-2 text-gray-400 '>NewsNinja</h1>
-            <input className='mr-5 sm:mr-30 mb-3 rounded-lg p-1 opacity-70 hover:opacity-95' type="text" value={searchterm} onChange={e=>setsearchterm(e.target.value)} onKeyDown={searchData} placeholder='Search any Topic' />
+        <div className='flex-col w-full  text-blue-800 bg-black p-2 opacity-100  z-[100] overflow-x-hidden'>
+            <div className='flex justify-items-start sm:justify-between w-full h-auto overflow-x-hidden'>
+            <h1 className='text-xl sm:text-2xl md:text-3xl p-2 font-semibold mb-2 text-gray-400 overflow-hidden '>NewsNinja</h1>
+            <input className='mt-2 mr-0 md:mr-10  rounded-lg px-1 sm:px-2 opacity-70 hover:opacity-95 h-[30px] ' type="text" value={searchterm} onChange={e=>setsearchterm(e.target.value)} onKeyDown={searchData} placeholder='Search any Topic' />
             </div>
             <hr />
         
-        <div className='flex mx-2 mt-2 space-x-3 sm:space-x-6 md:space-x-10 overflow-x-scroll scroll-smooth scrollbar-hide'>
+        <div className='flex w-full mx-2 mt-2 space-x-3 sm:space-x-6 md:space-x-10 overflow-x-scroll scroll-smooth scrollbar-hide'>
             <p className='border rounded-lg px-1  bg-blue-100 border-none cursor-pointer' onClick={categorySports}>Sports</p>
             <p className='border rounded-lg px-1  bg-blue-100 border-none cursor-pointer' onClick={categoryBusiness}>Business</p>
             <p className='border rounded-lg px-1  bg-blue-100 border-none cursor-pointer' onClick={categoryEntertainment}>Entertainment</p>
