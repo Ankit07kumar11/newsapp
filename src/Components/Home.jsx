@@ -12,11 +12,11 @@ const Home = () => {
 
   const [news, setnews] = useState(data.articles);
 
-  useEffect(() => {
-      axios.get(baseURL).then((response) => {
-        setnews(response.data.articles);
-      });
-    });
+  
+      // axios.get(baseURL).then((response) => {
+      //   setnews(response.data.articles);
+      // });
+
 
    
 
